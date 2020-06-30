@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="node" value="http://192.168.0.101:4444/wd/hub"></parameter>
+  	<parameter name="browser" value="chrome"></parameter>
+  <test name="AlertsTypesTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.Elements.AlertsTypes" />
+		</classes>
+	</test>
+	<test name="CheckBoxTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.Elements.CheckBoxClick" />
+		</classes>
+	</test>
+	<test name="DropDownTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.Elements.DropDownSelect" />
+		</classes>
+	</test>
+  
+	
+
+	
+</suite> <!-- Suite -->

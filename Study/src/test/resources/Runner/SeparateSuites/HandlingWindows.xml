@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HandlingWindowsTestSuite" verbose="1">
+	<parameter name="node" value=""></parameter>
+  <parameter name="browser" value=""></parameter>
+	<test name="HandlingWindowsTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.Elements.HandlingWindows" />
+		</classes>
+	</test>
+	
+</suite>

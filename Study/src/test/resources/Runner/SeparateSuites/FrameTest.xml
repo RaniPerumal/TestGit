@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FrameTestSuite" verbose="1">
+	
+	<test name="FrameTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.Elements.handlingFrames" />
+		</classes>
+	</test>
+	
+</suite>

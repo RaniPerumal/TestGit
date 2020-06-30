@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FullTestSuite" verbose="5" parallel="tests" thread-count="4">
+   
+  
+	<test name="ScrollByPixelTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.Elements.ScrollByPixel" />
+		</classes>
+	</test>
+
+	
+  
+</suite>
